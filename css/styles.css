@@ -1,0 +1,292 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+}
+
+/* header/nav */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    gap:15px;
+}
+
+.nav{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 250px;
+}
+
+.nav-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-links a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* header/nav */
+
+/* hero-section */
+
+.hero{
+    padding:100px 250px;
+    display:flex;
+    background-color: #1F2937;
+    display:flex;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.hero-main{
+    float:left;
+    width:50%;
+}
+
+
+
+.hero-title{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-top:0;
+    margin-bottom: 0;
+    
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    color:white;
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 10px 30px;
+    border-color: transparent;
+}
+
+.hero button:hover{
+    background-color: red;
+    color: black;
+    scale: 2;
+}
+
+.cat:hover{
+    scale:10;
+    position:fixed;
+    top:50%;
+    right:50%;
+    transition: width linear 2s linear 1s;
+    transform:rotate(45deg);    
+}
+
+
+.hero-image{
+    background-color: gray;
+    color:white;
+    width: 40%;
+    display:flex;
+    border: 1px transparent solid;
+    border-radius: 15px;
+    
+}
+
+.hero-image img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+/* hero-section */
+
+/* info-section */
+
+.info-title{
+    font-weight:800;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    
+}
+
+.info{
+    height:300px;
+    padding:40px 0 20px 0;
+}
+
+.cards{
+    display:flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.card-photo{
+    width:175px;
+    height:150px;
+    border: 5px #3882f6 solid;
+    border-radius: 5%;
+    
+}
+
+.card-photo img{
+    width:175px;
+    height:150px;
+    object-fit:fill;
+}
+
+
+
+.card{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:175px;
+    height:250px;
+    text-align: center;
+}
+
+.family-photo{
+    display:flex;
+    width:600px;
+    height:700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.family-photo img{
+    width:600px;
+    height:600px;
+    margin-bottom: 20px;
+    border-radius:30px;
+}
+
+.family-title{
+    font-weight:700;
+    margin-bottom: 20px;
+}
+
+.family-photo span{
+    font-weight:900;
+    font-size:32px;
+}
+
+.photo-1:hover{
+    border-radius:5%;
+    content: url("../images/bebe-hover.png");
+    scale:4;
+    transform: rotate(180deg);
+    left:20%;
+    top:70%;
+    position: absolute;
+}
+
+/* info-section */
+
+/* quote-section */
+
+.quote{
+    background-color: #e5e7eb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:400px;
+    padding:0 500px;
+}
+
+.quote-text{
+    font-size:25px;
+    font-weight: light;
+    font-style:italic;
+    color:#1F2937;
+}
+
+.quote-author{
+    align-self: flex-end;
+    padding-right:30px;
+    font-weight: 900;
+}
+
+/* quote-section */
+
+/* Action-section */
+
+.action{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+}
+
+.action-sign-up{
+    background-color: #3882f6;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    width:70%;
+    padding: 60px 0;;
+    color:white;
+    justify-content: space-around;
+    
+}
+
+.action-sign-up p:nth-child(1){
+    font-weight: bold;
+    font-size:22px;
+}
+
+.action-sign-up p{
+    margin:0;
+    
+}
+
+.action-sign-up button{
+    border-color: white;
+}
+
+.right-side button:active{
+    scale:30;
+    background-color: red;
+}
+
+.god a:visited{
+    color:red;
+}
+
+.god a{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* Action-section */
+
+/* footer */
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:white;
+    height:100px;
+}
+
+/* footer */
+
